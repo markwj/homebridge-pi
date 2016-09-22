@@ -1,23 +1,27 @@
 {
-  "name": "homebridge-pi-cputemp",
+  "name": "homebridge-pi",
   "version": "1.0.0",
-  "description": "A homebridge sensor for Raspberry Pi to show CPU temperature",
+  "description": "A homebridge sensor for Raspberry Pi",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/markwj/homebridge-pi-cputemp.git"
+    "url": "git+https://github.com/markwj/homebridge-pi.git"
+  },
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=4.2.0"
   },
   "keywords": [
-    "homebridge",
+    "homebridge-plugin",
     "raspberrypi"
   ],
   "author": "Mark Webb-Johnson <mark@webb-johnson.net>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/markwj/homebridge-pi-cputemp/issues"
+    "url": "https://github.com/markwj/homebridge-pi/issues"
   },
-  "homepage": "https://github.com/markwj/homebridge-pi-cputemp#readme"
+  "homepage": "https://github.com/markwj/homebridge-pi#readme"
 }
