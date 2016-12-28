@@ -30,7 +30,7 @@ PiTemperatureAccessory.prototype =
       if (typeof data == 'undefined') { return this.log("Failed to read temperature file"); }
       this.temperature = (0.0+parseInt(data))/1000;
       }
-    this.log("Rasperberry Pi CPU/GPU temperature at " + this.temperature);
+    this.log("Raspberry Pi CPU/GPU temperature at " + this.temperature);
     temperatureService.setCharacteristic(Characteristic.CurrentTemperature, this.temperature);
     callback(null, this.temperature);
     },
